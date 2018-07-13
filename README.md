@@ -49,3 +49,9 @@ The function p48_energy.m plots the change in kinetic, potential, and total ener
 The function p48_animate.m animates the system in real time. In the same section, the user can specify whether to include a timer and hinges in the animation, as well as a timescale to slow down or speed up the animation with respect to real time.
 
 The function p48_gif.m then creates an .gif of the animation. This function calls gif.m created by Chad Greene, obtained from MATLAB central at https://www.mathworks.com/matlabcentral/fileexchange/63239-gif.
+
+
+
+## History
+
+This was my final project for the course "MAE 5730: Intermediate Dynamics and Vibrations" at Cornell University in the fall of 2017. On the set of problems provided for the semester, this was number 48. My final report is included here, which discusses some of the mathematical framework necessary to derive the equations of motion. I also included a problem from our final exam (3 links), as well as a bonus part (N-links) I added afterward. These two problems explain why for certain initial conditions, link masses, and link moments of inertia, the links remain in-line, and the set of pendulum links behave as one large pendulum. The stability of this case is not analyzed, but may be in the future. 
